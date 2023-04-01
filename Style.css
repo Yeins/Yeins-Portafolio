@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.fondo{
+    background-color: lightblue;
+}
+nav{
+    align-items: center;
+    height: 20%;
+    background-color: black;
+}
+
+.navegador{
+    height: 110px;
+    display: flex;
+}
+
+
+.menu{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu li{
+    list-style-type: none;
+    float: left;
+    display: block;
+    padding: 30px 30px;
+    position:relative; 
+    left:45px; 
+}
+
+.contenedorPrincipal{
+    color: black;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.contenedor-buscador{
+    border-radius: 10px;
+    position:relative; 
+    padding-right: 40px;
+    top: 50px;
+}
+
+.buscador{
+    border-radius: 10px;
+}
+
+.imagen{
+    height: 100%;
+}
+.enlace{
+    color: white;
+    text-decoration: none;
+}
+.imgCont{
+    height: 222px;
+    width: 222px;
+    padding-top: 35px ;
+
+}
+
+.texto{
+    width: 300px;
+    padding-top: 20px ;
+}
+
+#item{
+    height: 500px;
+    width: 500px;
+}
+
+.img{
+    width: 400px;
+    margin: auto;
+}
+
+#myCarousel {
+    width: 23%;
+    margin: auto;
+    width: 40%;
+    top: 50px;
+    background-color: black;
+    display: flex;
+}
